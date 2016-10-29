@@ -91,9 +91,7 @@ p{
   text-decoration: none;
 }
 
- #ling a:hover{
-   margin-right: 10%;
-   margin-top: 10%;
+a{
    color: rgb(82,44,128);
    text-decoration: none;
  }
