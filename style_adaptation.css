@@ -1,0 +1,81 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 2%;
+    background-color: rgb(82,44,128);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+.sidenav .sub{
+  font-size: 14px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#next{
+margin-bottom: 5%;
+margin-left: 90%;
+width:90px;
+height: auto;
+}
+
+.circle {
+  display: block;
+  background: black;
+  border-radius: 100%;
+  height: 10%;
+  width: 10%;
+  position: relative;
+  margin-top: 20%;
+}
+
+#adaptation{
+  width: 70%;
+  height: auto;
+  position: fixed;
+  margin-top: 0.4%;
+  margin-left: 13%;
+}
+
+#bola{
+  cursor: default;
+  width: 2.7%;
+  height: auto;
+  position: fixed;
+  margin-top: 42.7%;
+  margin-left: 70.7%;
+}

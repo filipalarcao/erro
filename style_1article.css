@@ -1,0 +1,86 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 2%;
+    background-color: rgb(82,44,128);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+.sidenav .sub{
+  font-size: 14px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h1{
+  position: absolute;
+  font-size: 100px;
+  color: rgb(231, 43, 95);
+  opacity: 0.5;
+}
+
+#title1{
+  position: fixed;
+  margin-top: -5%;
+  margin-left: 40%;
+}
+
+#title2{
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 40%;
+}
+#title3{
+  position: fixed;
+  margin-top: 11%;
+  margin-left: 40%;
+}
+
+#next{
+margin-top: 50%
+margin-left: 80%;
+width:90px;
+height: auto;
+}
+
+p{
+  	text-align:justify;
+  	font-family: Helvetica, serif;
+  	margin-right: 33vw;
+  	margin-left: 27vw;
+  	font-size: 1vw;
+}
