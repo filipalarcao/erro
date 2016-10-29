@@ -92,6 +92,8 @@ p{
 }
 
 a{
+   margin-right: 10%;
+   margin-top: 10%;
    color: rgb(82,44,128);
    text-decoration: none;
  }
@@ -104,7 +106,7 @@ a{
    text-decoration: none;
  }
 
-  #eng a:hover{
+  #port{
     margin-right: 16%;
     margin-top: 10%;
     color: rgb(82,44,128);
