@@ -116,3 +116,14 @@ a{
     color: rgb(82,44,128);
     text-decoration: none;
   }
+
+  @media screen and (max-width: 760px) {
+    p{
+      	text-align:justify;
+      	font-family: Helvetica, serif;
+      	margin-right: 33vw;
+      	margin-left: 27vw;
+      	font-size: 3vw;
+    }
+
+  }
