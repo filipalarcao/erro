@@ -19,7 +19,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: rgb(255,255,255);
+    color: rgb(0,0,0);
     display: block;
     transition: 0.3s
 }
@@ -49,7 +49,7 @@ body {
 h1{
   position: absolute;
   font-size: 100px;
-  color: rgb(62, 15, 0);
+  color: rgb(73,196,215);
   opacity: 0.5;
 }
 
