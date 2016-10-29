@@ -119,7 +119,7 @@ a{
 
   @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait){
     p{
-      	text-align:justify;
+      	text-align:left;
       	font-family: Helvetica, serif;
       	margin-right: 33vw;
       	margin-left: 27vw;
