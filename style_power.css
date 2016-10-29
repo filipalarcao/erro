@@ -55,8 +55,8 @@ height: auto;
 
 #power{
  position: fixed;
- width: 110%;
+ width: 100%;
  height: auto;
  margin-top: 2%;
- margin-left: 13%;
+ margin-right: 3%;
 }
