@@ -54,7 +54,7 @@ height: auto;
 }
 
 #power{
- position: relative;
+ position: fixed;
   width: 300px;
   height: auto;
   margin-top: 2%;
