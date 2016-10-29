@@ -129,4 +129,11 @@ a{
       font-size: 50px;
     }
 
+    h1{
+      position: absolute;
+      font-size: 150px;
+      color: rgb(231, 43, 95);
+      opacity: 0.5;
+    }
+
   }
