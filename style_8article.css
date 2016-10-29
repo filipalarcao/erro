@@ -72,7 +72,6 @@ h1{
   margin-right: auto;
 }
 
-
 p{
   	text-align:justify;
   	font-family: Helvetica, serif;
@@ -85,4 +84,8 @@ h4{
   margin-right: 33vw;
   margin-left: 27vw;
   color: rgb(231, 43, 95);
+}
+
+#primeiro{
+      margin-top: 10vw;
 }
