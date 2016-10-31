@@ -47,10 +47,11 @@ body {
 
 
 #next{
-margin-bottom: 5%;
-margin-left: 90%;
-width:90px;
-height: auto;
+  position: fixed;
+  bottom: 2%;
+  margin-left: 90%;
+  width:90px;
+  height: auto;
 }
 
 #power{
@@ -58,7 +59,7 @@ height: auto;
  width: 80%;
  height: auto;
  margin-top: -2%;
- margin-left: 50%;
+ left: 10%;
 }
 
 #ling{
