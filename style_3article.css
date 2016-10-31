@@ -69,10 +69,11 @@ h1{
 }*/
 
 #next{
-margin-bottom: 5%;
-margin-left: 90%;
-width:90px;
-height: auto;
+  position: fixed;
+  bottom: 3%;
+  margin-left: 90%;
+  width:90px;
+  height: auto;
 }
 
 p{
