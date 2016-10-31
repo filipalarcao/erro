@@ -111,6 +111,7 @@ a{
     text-decoration: none;
   }
 
-#primeiro{
-      margin-top: 10vw;
+#texto{
+  position: absolute;
+  margin-top: 10%;
 }
