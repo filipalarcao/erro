@@ -80,6 +80,36 @@ p{
   	font-size: 1vw;
 }
 
+#ling{
+  position: fixed;
+  transform: translate(-100%);
+  left: 96%;
+  text-align: right;
+  margin-top: 1%;
+  color: rgb(82,44,128);
+  text-decoration: none;
+}
+
+a{
+   color: rgb(82,44,128);
+   text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration: none;
+    color: rgb(231, 43, 95);
+ }
+
+ #eng{
+   color: rgb(82,44,128);
+   text-decoration: none;
+ }
+
+  #port{
+    color: rgb(82,44,128);
+    text-decoration: none;
+  }
+
 #primeiro{
       margin-top: 10vw;
 }

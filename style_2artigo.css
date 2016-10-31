@@ -1,5 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
+    /*border: 1px dashed red;*/
 }
 
 .sidenav {
@@ -55,23 +56,24 @@ h1{
 
 #title1{
   position: fixed;
-  margin-top: -4%;
+  margin-top: -3%;
   margin-left: 30%;
 }
 
 #title2{
   position: fixed;
-  margin-top: 3%;
+  margin-top: 4%;
   margin-left: 30%;
 }
 #title3{
   position: fixed;
-  margin-top: 10%;
+  margin-top: 11%;
   margin-left: 30%;
 }
 
 #next{
-margin-bottom: 5%;
+position: fixed;
+bottom: 3%;
 margin-left: 90%;
 width:90px;
 height: auto;
@@ -84,3 +86,33 @@ p{
   	margin-left: 27vw;
   	font-size: 1vw;
 }
+
+#ling{
+  position: fixed;
+  transform: translate(-100%);
+  left: 96%;
+  text-align: right;
+  margin-top: 1%;
+  color: rgb(82,44,128);
+  text-decoration: none;
+}
+
+a{
+   color: rgb(82,44,128);
+   text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration: none;
+    color: rgb(231, 43, 95);
+ }
+
+ #eng{
+   color: rgb(82,44,128);
+   text-decoration: none;
+ }
+
+  #port{
+    color: rgb(82,44,128);
+    text-decoration: none;
+  }
