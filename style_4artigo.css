@@ -25,7 +25,7 @@ body {
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: rgb(73,196,215);
 }
 
 
@@ -55,15 +55,15 @@ h1{
 
 #title1{
   position: fixed;
-  margin-top: -3%;
-  margin-left: 40%;
+  margin-top: -2%;
+  margin-left: 30%;
   margin-right: auto;
 }
 
 #title2{
   position: fixed;
-  margin-top: 3%;
-  margin-left: 40%;
+  margin-top: 5%;
+  margin-left: 30%;
   margin-right: auto;
 }
 
