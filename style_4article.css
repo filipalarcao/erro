@@ -118,3 +118,8 @@ h3{
   margin-left: 27vw;
   color: rgb(231, 43, 95);
 }
+
+#texto{
+  position: absolute;
+  margin-top: 8%;
+}
