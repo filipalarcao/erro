@@ -1,0 +1,94 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 2%;
+    background-color: rgb(249,237,37);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0,0,0);
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: rgb(73,196,215);
+}
+
+
+.sidenav .sub{
+  font-size: 14px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#next{
+  position: fixed;
+  bottom: 2%;
+  margin-left: 90%;
+  width:90px;
+  height: auto;
+}
+
+#power{
+ position: fixed;
+ width: 80%;
+ height: auto;
+ margin-top: -2%;
+ left: 10%;
+}
+
+#ling{
+  position: fixed;
+  transform: translate(-100%);
+  left: 96%;
+  text-align: right;
+  margin-top: 1%;
+  color: rgb(82,44,128);
+  text-decoration: none;
+}
+
+a{
+   color: rgb(82,44,128);
+   text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration: none;
+    color: rgb(231, 43, 95);
+ }
+
+ #eng{
+   color: rgb(82,44,128);
+   text-decoration: none;
+ }
+
+  #port{
+    color: rgb(82,44,128);
+    text-decoration: none;
+  }
