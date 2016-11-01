@@ -71,11 +71,11 @@ h1{
 }
 
 #next{
-position: fixed;
-bottom: 2%;
-margin-left: 90%;
-width:90px;
-height: auto;
+  position: fixed;
+  bottom: 2%;
+  margin-left: 90%;
+  width:90px;
+  height: auto;
 }
 
 p{
@@ -114,4 +114,9 @@ a{
   #port{
     color: rgb(82,44,128);
     text-decoration: none;
+  }
+
+  #texto{
+    position: absolute;
+    margin-top: 8%;
   }

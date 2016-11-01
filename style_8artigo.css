@@ -118,6 +118,7 @@ h4{
   color: rgb(231, 43, 95);
 }
 
-/*#primeiro{
-      margin-top: 14vw;
-}*/
+#texto{
+  position: absolute;
+  margin-top: 8%;
+}
