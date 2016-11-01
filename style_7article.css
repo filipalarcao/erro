@@ -114,3 +114,8 @@ a{
     color: rgb(82,44,128);
     text-decoration: none;
   }
+
+  #texto{
+    position: absolute;
+    margin-top: 8%;
+  }
